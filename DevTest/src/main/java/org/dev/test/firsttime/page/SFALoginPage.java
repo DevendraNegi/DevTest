@@ -1,4 +1,4 @@
-package org.dev.test.firsttime.DevTest;
+package org.dev.test.firsttime.page;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;

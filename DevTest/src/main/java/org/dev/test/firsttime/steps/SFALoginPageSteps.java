@@ -1,6 +1,7 @@
 package org.dev.test.firsttime.steps;
 
-import org.dev.test.firsttime.DevTest.SFALoginPage;
+import org.dev.test.firsttime.page.SFALoginPage;
+
 import net.thucydides.core.annotations.Step;
 
 public class SFALoginPageSteps {
