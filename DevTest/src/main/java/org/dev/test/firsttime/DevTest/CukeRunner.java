@@ -5,7 +5,8 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(plugin = { "pretty", "html:target" }, features = "src/test/resources", tags = "@Login1")
+@CucumberOptions(plugin = { "pretty", "html:target/html",
+		"json:target/cucumber.json" }, features = "src/test/resources", tags = "@Login1")
 public class CukeRunner {
 
 }
